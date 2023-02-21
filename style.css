@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* border: 1px solid rgb(245, 10, 10); */
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 20px;
+
+    background-color: rgb(248, 251, 251);
+}
+.left-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.logo > img{
+
+width: 42px ;
+height: 42px;
+border: 1px solid gray;
+/* padding-left: 10px; */
+border-radius: 50%;
+
+
+
+}
+.logo{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    gap: 20px;
+
+}
+.logo > h4{
+
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    height: 260px;
+    justify-content: space-evenly;
+}
+.fa{
+    color: rgb(171, 171, 190);
+}
+.links >a{
+
+    text-decoration: none;
+    padding: 8px;
+    margin: 0 5px;
+    border-radius: 6px;
+}
+.links >a >span{
+    padding-left: 20px;
+}
+
+.links >a:hover{
+    background-color: blue;
+    color: white;
+
+}
+.right-container{
+    background-color: rgb(244, 246, 248);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    
+}
+.middlepart{
+    display: flex;
+    flex-direction: row;
+    /* flex-flow: row wrap; */
+    margin-top: 8px;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px
+}
+
+.middlepart >img{
+    width: 40px ;
+    height: 40px;
+    border-radius: 20px;
+
+
+}
+.middlepart >input{
+    border: none;
+    border-radius: 15px ;
+    height: 40px;
+    padding: 20px;
+    background-color: white
+}
+.middlepart>input:focus{
+    outline: none;
+}
+.middlepart{
+    position: relative;
+}
+ .middlepart .fa {
+    position: absolute;
+    background-color: rgba(218, 220, 226, 0.364);
+    left: 215px;
+    padding: 7px;
+    border-radius:10px;
+
+}
+.notification{
+    color: black;
+    padding: 10px;
+    position: relative;
+    font-size: large;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    row-gap: 20px;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+
+}
+.card >img{
+    width: 40px ;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 0;
+
+
+
+}
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    border-radius: 10px;
+    font-size: 17px;
+    width: 20%;
+    color: black;
+    margin: 4px;
+
+}
+
+.notification .update{
+    padding: 3px;
+    background-color: red;
+    font-size: 10px;
+    border-radius: 50%;
+    position:absolute ;
+    top:8px;
+    left: 23px;
+}
+
